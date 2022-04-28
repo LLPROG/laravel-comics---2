@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.top-header {
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  background-color: #0282F9;
+}
+.top-header .cont-span {
+  position: absolute;
+  right: 0;
+  color: white;
+}
+
+.bottom-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-header .navbar {
+  display: flex;
+}
+.bottom-header .navbar li {
+  list-style: none;
+  margin-right: 1.5rem;
+}
+.bottom-header .navbar li a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 2rem 0;
+}
+
+.hero {
+  width: 100%;
+  height: 30rem;
+  background-image: url("../images/jumbotron.jpg");
+}
+.hero .current-series {
+  position: absolute;
+  top: 62.5%;
+  left: 15%;
+  padding: 0.5rem 1.5rem;
+  color: white;
+  text-transform: uppercase;
+  background-color: blue;
+  border: transparent;
+  font-weight: bold;
+  font-size: 1.7em;
+}
+
+.bk-cards {
+  background-color: #1C1C1C;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 3rem 0;
+}
+.cards .card {
+  display: block;
+  max-width: calc(16.6666666667% - 1.5rem);
+  color: white;
+  text-transform: uppercase;
+}
+
+.load-cards {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 0.5rem 1.5rem;
+  color: white;
+  text-transform: uppercase;
+  background-color: blue;
+  border: transparent;
+  font-weight: bold;
+}
+
+.top-content {
+  background-image: url("/images/footer-bg.jpg");
+}
+.top-content .container {
+  display: flex;
+  padding: 2rem 0;
+}
+.top-content .container .list-link {
+  color: white;
+  list-style: none;
+  margin-right: 4rem;
+}
+.top-content .container .list-link .title-link {
+  margin: 0.5rem 0;
+  text-transform: uppercase;
+}
+.top-content .container .list-link .under-list {
+  list-style: none;
+  color: gray;
+}
+
+.bottom-content {
+  background-color: #303030;
+  text-transform: uppercase;
+}
+.bottom-content .container {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+}
+.bottom-content .container .sign {
+  background-color: transparent;
+  border-radius: 0;
+  border: 3px solid blue;
+  color: white;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+.bottom-content .container .socials {
+  font-size: 1.8em;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  color: blue;
+  gap: 1rem;
+}
