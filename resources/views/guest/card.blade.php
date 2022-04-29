@@ -3,6 +3,7 @@
 @section('title', $title)
 
 @section('content')
+
     <div class="hero">
 
     </div>
@@ -12,12 +13,15 @@
     </div>
 
     <div class="container">
+
         <div class="single-card">
             <img src="{{ $singleCard['thumb'] }}" alt="{{ $singleCard['title'] }}">
         </div>
+
         <h1>
             {{ $singleCard['title'] }}
         </h1>
+
         <div class="disponibility">
             <div class="cont-price">
                 <div class="price">U.S. Price: ${{ $singleCard['price'] }}</div>
@@ -27,13 +31,17 @@
                 Check Available
             </div>
         </div>
+
         <p class="description">
             {{ $singleCard['description'] }}
         </p>
+
     </div>
 
     <div class="specifity">
+
         <div class="container">
+
             <div class="talent">
                 <h2>
                     Talent
@@ -61,8 +69,8 @@
                     </p>
                 </div>
 
-
             </div>
+
             <div class="specs">
 
                 <div class="series">
@@ -79,8 +87,11 @@
                     <span>On Sale Date:</span>
                     <span>{{ $singleCard['sale_date'] }}</span>
                 </div>
+
             </div>
+
         </div>
+
     </div>
 
 
